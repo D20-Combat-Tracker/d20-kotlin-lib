@@ -21,6 +21,9 @@
 package org.d20CombatTracker.kotlin.lib
 
 class Library {
+    fun someTextMethod(): String {
+        return "Hello!"
+    }
     fun someLibraryMethod(): Boolean {
         return true
     }
